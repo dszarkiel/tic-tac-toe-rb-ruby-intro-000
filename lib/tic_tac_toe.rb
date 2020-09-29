@@ -35,7 +35,7 @@ def valid_move?(board, index)
 end
 
 def turn_count(board)
-  counter = 0
+  num_of_turns = 0
   board.each do |space|
     if space != " "
       counter += 1
