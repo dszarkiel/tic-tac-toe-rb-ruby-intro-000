@@ -38,7 +38,7 @@ def turn_count(board)
   num_of_turns = 0
   board.each do |space|
     if space != " "
-      counter += 1
+      num_of_turns += 1
     end
   end
   return counter
